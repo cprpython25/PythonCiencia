@@ -3,7 +3,7 @@ import pandas as pd
 print("Lectura de CSV")
 
 #ALMACENAMOS LOS DATOS DEL CSV DENTRO DE UN DATAFRAME
-df = pd.read_csv('data/datos.csv', delimiter='=')
+df = pd.read_csv('data/datos.csv', delimiter=';')
 print(df)
 #PRIMERAS 5 FILAS
 print(df.head())
